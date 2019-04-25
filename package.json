@@ -1,0 +1,27 @@
+{
+  "name": "mfresh_backend",
+  "version": "1.0.0",
+  "description": "mfresh node",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test.html",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "www.tmooc.com"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "wen",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "mysql": "^2.16.0"
+  }
+}
